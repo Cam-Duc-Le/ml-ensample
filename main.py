@@ -58,63 +58,63 @@ def classify(weather_data: WeatherData):
     if nn1_arr == 0:
         tmp_arr[0] += 0.9
     elif nn1_arr == 1:
-        tmp_arr[1] += 0.9
+        tmp_arr[1] += 0.8
     elif nn1_arr == 2:
-        tmp_arr[2] += 0.9
+        tmp_arr[2] += 1
     elif nn1_arr == 3:
         tmp_arr[3] += 0.9
 
     if nn2_arr == 0:
         tmp_arr[0] += 0.9
     elif nn2_arr == 1:
-        tmp_arr[1] += 0.9
+        tmp_arr[1] += 0.8
     elif nn2_arr == 2:
-        tmp_arr[2] += 0.9
+        tmp_arr[2] += 1
     elif nn2_arr == 3:
         tmp_arr[3] += 0.9
 
     if dtree_arr == 0:
         tmp_arr[0] += 0.9
     elif dtree_arr == 1:
-        tmp_arr[1] += 0.9
+        tmp_arr[1] += 0.8
     elif dtree_arr == 2:
-        tmp_arr[2] += 0.9
+        tmp_arr[2] += 1
     elif dtree_arr == 3:
         tmp_arr[3] += 0.9
   
     if rf_arr == 0:
         tmp_arr[0] += 1
     elif rf_arr == 1:
-        tmp_arr[1] += 1
+        tmp_arr[1] += 0.8
     elif rf_arr == 2:
-        tmp_arr[2] += 1
+        tmp_arr[2] += 1.2
     elif rf_arr == 3:
         tmp_arr[3] += 1
   
     if svm_arr == 0:
         tmp_arr[0] += 0.7
     elif svm_arr == 1:
-        tmp_arr[1] += 0.7
+        tmp_arr[1] += 0.5
     elif svm_arr == 2:
-        tmp_arr[2] += 0.7
+        tmp_arr[2] += 0.8
     elif svm_arr == 3:
         tmp_arr[3] += 0.7
   
     if logreg_arr == 0:
         tmp_arr[0] += 0.7
     elif logreg_arr == 1:
-        tmp_arr[1] += 0.7
+        tmp_arr[1] += 0.5
     elif logreg_arr == 2:
-        tmp_arr[2] += 0.7
+        tmp_arr[2] += 0.8
     elif logreg_arr == 3:
         tmp_arr[3] += 0.7
   
     if nb_arr == 0:
         tmp_arr[0] += 0.6
     elif nb_arr == 1:
-        tmp_arr[1] += 0.6
+        tmp_arr[1] += 0.5
     elif nb_arr == 2:
-        tmp_arr[2] += 0.6
+        tmp_arr[2] += 0.7
     elif nb_arr == 3:
         tmp_arr[3] += 0.6
 
